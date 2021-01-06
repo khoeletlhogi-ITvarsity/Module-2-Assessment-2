@@ -1,0 +1,416 @@
+body{
+    padding: 0;
+    margin: 0;  
+}
+
+/*==================== HEADER ====================*/
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    text-align: center;
+    padding: 5px 0;
+    width: 70%;
+    height: 50px;
+    background-color: #6AAEC7;
+    color: black;
+    width: 100%;
+    font-family: Franklin Gothic Medium;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+h1{
+    position: fixed;
+    top: 40px;
+    z-index: 500;
+    text-align: center;
+    width: 60%;
+    height: 40px;
+    background-color: #2E646B;
+    color: whitesmoke;
+    width: 100%;
+    font-family: Franklin Gothic Medium;
+    font-size: 35px;
+    font-weight: 400;
+    
+}
+
+
+/*==================== TABS ====================*/
+
+
+#nav{
+    position: fixed ;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    bottom: 0 ;
+    width: 100% ;
+    height: 60px ;
+    padding: 0px ;
+    background-color:black;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+#nav ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ccc;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    border-left: 1px, solid, #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+#nav ul li:hover{
+    background: darkgrey;
+    color: white;
+    height: 100%;
+}
+
+/*==================== DROPDOWN MENU ====================*/
+
+/*==================== STORES ====================*/
+
+#stores{
+    margin-left: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    display: block;
+    
+}
+
+table.store{
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    display: block;
+    
+    
+}
+    
+
+
+#stores img{
+    height: 120px;
+    width: 180px;
+}
+
+#store img:hover{
+    height: 150px;
+    width: 210px;
+}
+
+/*==================== INFO BOX TEXT ====================*/
+
+#transbox {
+    margin-top: 75px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    display: block;
+    margin: auto;
+    
+}
+
+/*==================== HOME ====================*/
+
+#sale img{
+    width: 100%;
+    left: 0;
+    padding-right: 70px;
+    padding: 0;
+    
+} 
+
+
+
+/*==================== Movies ====================*/
+
+h4{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+#gallery img{
+   width: 370px;
+}
+
+#gallery img:hover{
+    width: 390px;
+    height: auto;
+    opacity: inherit;
+}
+
+
+#gallery{
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+table.movies{
+    text-align: center;
+    padding: 15px;
+    margin-left:auto;   
+    margin-right:auto;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-bottom: 150px;
+}
+
+table td{
+    padding: 8px;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+a.table{
+    text-decoration: none;
+}
+
+body.xxx{
+    color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*==================== MOVIE PAGES ====================*/
+
+
+#main{
+    margin-top: 119px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+    padding-bottom: 90px;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+
+
+p{
+    font-family: calibri;
+    font-size: 20px;
+}
+
+/*============== INFO-BOX ==============*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    bottom: 200px;
+    position: absolute;
+    padding-bottom: 50px;
+    
+}
+
+.info-box img{
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+h4{
+    font-family: cursive;
+    font-size: 17px;
+    font-weight: 500;
+    color: darkblue;
+    text-align: center;
+}
+
+table{
+    padding-bottom:  bottom: 50px;
+}
+
+/*============== INFO BOX FULL ==============*/
+
+#info-box-full{
+    background-color: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+
+/*============== INFO BOX ICONS ==============*/
+
+#info-box-icon{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+/*============== Map ==============*/
+
+
+#map{
+    margin-top: 60px;
+    padding: 5px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+}
+
+
+th{
+    text-align: center;
+    font-size: 25px;
+    color: beige;
+    background-color: #2D4E5A;
+    
+}
+
+
+
+
+/*============== Contact ==============*/
+
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px; 
+}  
+ul{
+    margin-top: 90px;
+    list-style: none;
+    display: block;
+    
+}
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;
+}  
+.fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+}  
+
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+}  
+
+.fa:hover {  
+    opacity: 0.9;  
+}  
+
+table.contact{
+    margin-bottom: 300px;
+}
+
+/*============== FORM ==============*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px, 0;
+    border: 1px, solid, #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px, 0;
+    border: 1px, solid, #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #637173;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 12px, 0;
+    padding: 0;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
